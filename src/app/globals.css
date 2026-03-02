@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --church-blue: hsl(210, 40%, 20%);
-  --church-green: hsl(150, 30%, 30%);
-  --church-amber: hsl(35, 85%, 55%);
-  --church-slate: hsl(210, 10%, 40%);
+  --church-blue: hsl(0 15% 25%);
+  --church-green: hsl(0 20% 35%);
+  --church-amber: hsl(0 25% 50%);
+  --church-slate: hsl(0 8% 45%);
   --background: #ffffff;
   --foreground: var(--church-slate);
 }
