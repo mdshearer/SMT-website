@@ -24,7 +24,14 @@ export default function Footer() {
           <div className="flex flex-col sm:flex-row gap-6 text-white/90">
             <div>
               <p className="font-semibold text-white">Visit us</p>
-              <p>53 Reynolds Street, Taitā</p>
+              <a
+                href="https://maps.google.com/?q=53+Reynolds+Street+Taita+Lower+Hutt"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors underline underline-offset-2"
+              >
+                53 Reynolds Street, Taitā
+              </a>
             </div>
             <div>
               <p className="font-semibold text-white">Post</p>
