@@ -60,7 +60,7 @@ export default function Home() {
             </p>
             <p className="text-lg mb-2">
               <a
-                href="https://maps.google.com/?q=53+Reynolds+Street+Taita+Lower+Hutt"
+                href="https://maps.app.goo.gl/WkBnzH3mxsw56Fxt7"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-church-blue hover:text-church-green transition-colors underline underline-offset-4"
@@ -111,38 +111,63 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Community Garden */}
+      {/* Activities */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-6">
-          <SectionHeading>Community Garden &amp; Food Forest</SectionHeading>
-          <div className="bg-white rounded-xl border-l-4 border-church-green p-8 shadow-sm mb-6">
-            <p className="text-sm font-medium text-church-green mb-4">
-              Official Eco Church with A Rocha Aotearoa NZ
-            </p>
-            <div className="grid sm:grid-cols-2 gap-6">
-              <div>
-                <p className="font-semibold text-church-blue text-lg mb-2">
-                  Wednesdays
-                </p>
-                <p className="text-church-slate">
-                  Open to everyone in the neighbourhood. Come along for
-                  shared mahi in the garden and learn to grow your own
-                  kai.
-                </p>
-              </div>
-              <div>
-                <p className="font-semibold text-church-blue text-lg mb-2">
-                  Monthly Sundays
-                </p>
-                <p className="text-church-slate">
-                  Church <span lang="mi">whānau</span> gather for
-                  general maintenance and food forest care.
-                </p>
-              </div>
+          <SectionHeading>What&apos;s Happening in the Neighbourhood</SectionHeading>
+          <div className="grid sm:grid-cols-2 gap-6 mb-6">
+            <div className="bg-white rounded-xl border-l-4 border-church-green p-8 shadow-sm">
+              <p className="font-semibold text-church-blue text-lg mb-2">
+                Community Garden
+              </p>
+              <p className="text-church-slate mb-1">Wednesdays</p>
+              <p className="text-church-slate text-sm">
+                Open to everyone. Come along for shared{" "}
+                <span lang="mi">mahi</span> in the garden and learn to
+                grow your own <span lang="mi">kai</span>.
+              </p>
+              <p className="text-sm font-medium text-church-green mt-3">
+                Official Eco Church with A Rocha Aotearoa NZ
+              </p>
+            </div>
+            <div className="bg-white rounded-xl border-l-4 border-church-amber p-8 shadow-sm">
+              <p className="font-semibold text-church-blue text-lg mb-2">
+                Playgroup
+              </p>
+              <p className="text-church-slate mb-1">
+                Fridays, 10:00 – 11:30 AM
+              </p>
+              <p className="text-church-slate text-sm">
+                A relaxed morning for parents, caregivers, and little ones.
+              </p>
+            </div>
+            <div className="bg-white rounded-xl border-l-4 border-church-blue p-8 shadow-sm">
+              <p className="font-semibold text-church-blue text-lg mb-2">
+                Morning Prayers
+              </p>
+              <p className="text-church-slate mb-1">
+                Weekdays, 6:30 AM
+              </p>
+              <p className="text-church-slate text-sm">
+                Start the day together in prayer. Everyone welcome.
+              </p>
+            </div>
+            <div className="bg-white rounded-xl border-l-4 border-church-green p-8 shadow-sm">
+              <p className="font-semibold text-church-blue text-lg mb-2">
+                Go Sunday
+              </p>
+              <p className="text-church-slate mb-1">
+                Last Sunday of every second month
+              </p>
+              <p className="text-church-slate text-sm">
+                We head out into the community to lend a hand where
+                it&apos;s needed.
+              </p>
             </div>
           </div>
           <p className="text-church-slate text-lg leading-relaxed">
-            Produce is shared with neighbours in need and{" "}
+            Produce from the garden is shared with neighbours in need
+            and{" "}
             <span lang="mi">Taitā Pātaka Kai</span>. No
             experience needed — everyone is welcome.
           </p>
