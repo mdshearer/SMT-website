@@ -25,7 +25,7 @@ export default function Footer() {
             <div>
               <p className="font-semibold text-white">Visit us</p>
               <a
-                href="https://maps.google.com/?q=53+Reynolds+Street+Taita+Lower+Hutt"
+                href="https://www.google.com/maps/place/St.+Matthew's+Anglican+Church/@-41.1790479,174.956379,19z/data=!4m6!3m5!1s0x6d4755834e4697ef:0x49440d4cea8a91db!8m2!3d-41.1784671!4d174.9565276!16s%2Fg%2F11k3d00vvd?entry=ttu&g_ep=EgoyMDI2MDIyNS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors underline underline-offset-2"
