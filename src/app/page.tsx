@@ -114,38 +114,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Kāinga Housing */}
-      <section className="bg-slate-50 py-16 md:py-24">
-        <div className="max-w-4xl mx-auto px-6">
-          <SectionHeading subtitle="More than housing — we're building community">
-            St Matt&apos;s <span lang="mi">Kāinga</span>
-          </SectionHeading>
-          <div>
-            <p className="text-lg text-church-slate leading-relaxed mb-4">
-              Eight warm, dry homes built on our church site by the Anglican
-              Diocese — four one-bedroom, three two-bedroom, and one
-              four-bedroom — providing affordable housing for families and
-              individuals in{" "}
-              <span lang="mi">Taitā</span>.
-            </p>
-            <p className="text-lg text-church-slate leading-relaxed mb-6">
-              Single-storey and designed for community, our{" "}
-              <span lang="mi">Kāinga</span> residents are welcome
-              neighbours with no obligation to participate in church
-              activities.
-            </p>
-            <a
-              href="https://housing.stmattstaita.org.nz"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center text-church-blue hover:text-church-green transition-colors font-medium underline underline-offset-4"
-            >
-              Read the full Kāinga story &rarr;
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Activities */}
       <section className="bg-white py-16 md:py-24">
         <div className="max-w-4xl mx-auto px-6">
@@ -224,6 +192,38 @@ export default function Home() {
               className="inline-flex items-center bg-church-amber text-white hover:bg-amber-600 transition-colors px-6 py-3 rounded-xl font-semibold min-h-[44px]"
             >
               View booking details &amp; conditions
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Kāinga Housing */}
+      <section className="bg-slate-50 py-16 md:py-24">
+        <div className="max-w-4xl mx-auto px-6">
+          <SectionHeading subtitle="More than housing — we're building community">
+            St Matt&apos;s <span lang="mi">Kāinga</span>
+          </SectionHeading>
+          <div>
+            <p className="text-lg text-church-slate leading-relaxed mb-4">
+              Eight warm, dry homes built on our church site by the Anglican
+              Diocese — four one-bedroom, three two-bedroom, and one
+              four-bedroom — providing affordable housing for families and
+              individuals in{" "}
+              <span lang="mi">Taitā</span>.
+            </p>
+            <p className="text-lg text-church-slate leading-relaxed mb-6">
+              Single-storey and designed for community, our{" "}
+              <span lang="mi">Kāinga</span> residents are welcome
+              neighbours with no obligation to participate in church
+              activities.
+            </p>
+            <a
+              href="https://housing.stmattstaita.org.nz"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center text-church-blue hover:text-church-green transition-colors font-medium underline underline-offset-4"
+            >
+              Read the full Kāinga story &rarr;
             </a>
           </div>
         </div>

@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div>
               <p className="font-semibold text-white">Post</p>
-              <p>42 Poole Street, Taitā</p>
+              <p>42a Poole Street, Taitā</p>
             </div>
           </div>
 
