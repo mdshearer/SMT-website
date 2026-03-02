@@ -205,6 +205,29 @@ export default function HallHirePage() {
       </section>
 
       {/* ══════════════════════════════════════════ */}
+      {/* AVAILABILITY CALENDAR                      */}
+      {/* ══════════════════════════════════════════ */}
+      <section className="mb-16" aria-labelledby="availability-heading">
+        <h2
+          id="availability-heading"
+          className="text-2xl font-bold text-church-blue mb-4"
+        >
+          Availability
+        </h2>
+        <p className="text-church-slate mb-6">
+          Shaded times are already booked. Contact us for available slots.
+        </p>
+        <div className="overflow-hidden rounded-xl border border-slate-200 shadow-sm">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?src=c_3546bfe8d5aebfc0f60e1275173956a2eb110c94a5302c97d72a17b6942d0494%40group.calendar.google.com&mode=WEEK&showTitle=0&showPrint=0&showCalendars=0&showTabs=1&showNav=1&showDate=1&showTz=0"
+            className="w-full border-0"
+            height="500"
+            title="Hall booking availability calendar"
+          />
+        </div>
+      </section>
+
+      {/* ══════════════════════════════════════════ */}
       {/* CONDITIONS OF USE                          */}
       {/* ══════════════════════════════════════════ */}
       <section className="mb-16" aria-labelledby="conditions-heading">

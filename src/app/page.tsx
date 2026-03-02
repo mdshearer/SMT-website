@@ -73,6 +73,45 @@ export default function Home() {
               <span lang="mi">kai</span> together.
             </p>
           </div>
+
+          {/* Giving — collapsible for privacy */}
+          <details className="mt-6 group">
+            <summary className="cursor-pointer text-church-slate hover:text-church-blue transition-colors text-sm font-medium list-none flex items-center gap-2 min-h-[44px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="transition-transform group-open:rotate-90"
+              >
+                <path d="M9 18l6-6-6-6" />
+              </svg>
+              Giving &amp; Tithes
+            </summary>
+            <div className="mt-4 bg-white rounded-xl border-l-4 border-church-blue p-8 shadow-sm">
+              <div className="bg-slate-50 rounded-lg p-4 mb-4">
+                <p className="text-sm text-church-slate mb-1">Bank account</p>
+                <p className="font-mono text-lg font-semibold text-church-blue select-all">
+                  02-0610-0070823-00
+                </p>
+                <p className="text-sm text-church-slate mt-1">
+                  St Matthew&apos;s{" "}
+                  <span lang="mi">Taitā</span>
+                </p>
+              </div>
+              <p className="text-church-slate mb-2">
+                Reference: <span className="font-semibold">your full name</span>
+              </p>
+              <p className="text-sm text-church-slate">
+                Tax receipts are emailed at the end of the financial year.
+              </p>
+            </div>
+          </details>
         </div>
       </section>
 
